@@ -170,8 +170,8 @@ Add a file name ``environ`` to the folder named ``docker-files``.
 	DJANGO_EMAIL_USER=email_user
 	DJANGO_EMAIL_PASSWORD=email_password
 	DJANGO_EMAIL_USE_TLS=yes
-	DJANGO_EMAIL_FROM=no-reply@example.com
-	DJANGO_EMAIL_REPLY_TO=info@example.com
+	DJANGO_EMAIL_FROM=sarath.sunil@ericsson.com
+	DJANGO_EMAIL_REPLY_TO=info@ericsson.com
 
 Replace the values of these environment variables with whatever is appropriate for your setup.
 

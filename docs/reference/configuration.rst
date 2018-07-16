@@ -371,11 +371,11 @@ configuration. Please remember that e-mail is sent asynchronously via django-pos
 
 	EMAIL_HOST = 'smtp.example.com'
 	EMAIL_PORT = 587
-	EMAIL_HOST_USER = 'no-reply@example.com'
+	EMAIL_HOST_USER = 'sarath.sunil@ericsson.com'
 	EMAIL_HOST_PASSWORD = 'smtp-secret-password'
 	EMAIL_USE_TLS = True
-	DEFAULT_FROM_EMAIL = 'My Shop <no-reply@example.com>'
-	EMAIL_REPLY_TO = 'info@example.com'
+	DEFAULT_FROM_EMAIL = 'My Shop <sarath.sunil@ericsson.com>'
+	EMAIL_REPLY_TO = 'info@ericsson.com'
 	EMAIL_BACKEND = 'post_office.EmailBackend'
 
 .. _django-post_office: https://pypi.python.org/pypi/django-post_office

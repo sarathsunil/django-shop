@@ -12,10 +12,10 @@ class AddressTest(TestCase):
         super(AddressTest, self).setUp()
         User = get_user_model()
         user = {
-            'username': 'john',
-            'first_name': 'John',
-            'last_name': 'Doe',
-            'email': 'john@example.com',
+            'username': 'sarathsunil',
+            'first_name': 'Sarath',
+            'last_name': 'Sunil',
+            'email': 'sarathsunil@yahoo.com',
             'password': 'secret',
         }
         user = User.objects.create(**user)

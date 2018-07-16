@@ -1,7 +1,7 @@
 # cd django-shop
 # docker build -f example/docker-files/Dockerfile .
 FROM python:3.6
-LABEL Description="Run django-SHOP demo" Maintainer="Jacob Rief <jacob.rief@gmail.com>"
+LABEL Description="Run django-SHOP demo" Maintainer="Sarath Sunil <sarath.sunil@ericsson.com>"
 RUN mkdir /web
 WORKDIR /web
 ARG DJANGO_WORKDIR=/web/workdir
