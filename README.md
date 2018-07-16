@@ -12,7 +12,7 @@
 To get a first impression on **django-SHOP**, try out one of the six fully working demo projects.
 
 ```
-git clone --depth=1 https://github.com/awesto/django-shop.git
+git clone https://github.com/sarathsunil/django-shop.git
 cd django-shop
 export DJANGO_SHOP_TUTORIAL=commodity
 docker-compose up --build
