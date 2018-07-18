@@ -48,7 +48,7 @@ RUN mkdir -p $DJANGO_WORKDIR
 RUN chown -R django.django $DJANGO_WORKDIR
 
 # handle django-SHOP docs
-#RUN git clone -b releases/0.13.x https://github.com/awesto/django-shop.git
+#RUN git clone -b releases/0.13.x https://github.com/sarathsunil/django-shop.git
 #RUN cd django-shop/docs && make fragments
 
 # keep media files in external volume
